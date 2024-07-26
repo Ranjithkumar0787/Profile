@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <style>
+        /* *{
+            background-color: aqua;
+        } */
+        html{
+            scroll-behavior:smooth;
+        }
+        body{
+            margin:0px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .flex1{
+            display: flex;
+            background-color:cadetblue ;
+            flex-direction: row;
+            justify-content: space-around;
+            color: aliceblue;
+            padding: .5rem;
+            position: fixed;
+            width:100%;
+            top:0px;
+            /* z-index:1000;  */
+        }
+        .flex2{
+            display: flex;
+            background-color:darkcyan ;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 150px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        .flex3{
+            
+            background-color:lightseagreen;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 100px;
+            
+        }
+        .flex4{
+            padding: 50px;
+            background-color: lightseagreen;
+            padding-left: 100px;
+
+        }
+        
+        .flex5{
+            display: flex;
+            background-color:darkcyan;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px;
+            
+        }
+        .flex6{
+            
+            background-color:darkcyan ;
+            /* flex-direction: row;
+            justify-content: space-between; */
+            padding: 80px;
+            
+        }
+        .item{
+            font-size: 20px;
+        }
+        ul{
+            display:flex;
+            list-style: none;
+            text-decoration: none;
+            
+        }
+        li{
+            padding-left: 40px;
+            background-color:cadetblue;
+        }
+        li:hover{
+            background-color:gray ;
+            padding: 10px;
+        }
+        a{
+            
+            text-decoration: none;
+            color: white;
+
+        }
+        ol{
+            
+            text-decoration: none;
+            background-color:darkcyan ;
+        }
+        .ran{
+            padding-right: 25px;
+            padding-bottom: 7px;
+            list-style: none;
+            background-color:darkcyan ;
+            color: white;
+        }
+        .vt{
+            padding-left: 40px;
+        }
+        
+        th,td,tr{
+            padding: 20px;
+            border: 3px solid rgb(0, 0, 0);
+            color: aliceblue;
+        }
+        .ranj{
+            padding: 90px; 
+            padding-left: 150px; 
+            color: aliceblue;
+            font-size: 20px; 
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <div  id="home" class="flex1">
+        <img style="border-radius: 15px;; " src="logo.png" width="150px" height="90px">
+        <ul>
+            <li class="item"><a href="#about"><img src="home.png" height="30px" width="25px"> HOME</a></li>
+            <li class="item"><a  href="#about"><img src="information.png" height="30px" width="25px"> About</a></li>
+            <li class="item"><a href="#education"> <img src="graduation-cap.png" height="30px" width="25px"> Education</a></li>
+            <li class="item"><a href="#skills"><img src="multitasking.png" height="30px" width="25px" > Skills</a></li>
+            <li class="item"><a href="#Training"><img src="internship.png" height="30px" width="25px"> Training</a></li>
+                <li class="item"><a href="#contact"><img src="contact-mail.png" height="30px" width="25px"> Contact</a></li>
+            <li class="item"><a href="White Simple Student CV Resume (3).pdf" target="_blank" download><img src="cv.png" height="30px" width="25px" > RESUME</a></li>
+            
+        </ul>
+    </div>
+    
+    <div id="about" class="flex2">
+        <img src=" img\profile.jpeg"  height="300px" width="300px" style=" border-radius: 50%; border: 8px solid white">
+        <!-- <h1 style="padding-bottom: 100px;">ABOUT ME </h1> -->
+        <p class="ranj" >Hello! I am Ranjith kumar P, a dedicated third-year student specializing in Electronics and Communication Engineering (ECE) at Sri Krishna College of Engineering and Technology (SKCET). My academic journey has been marked by a profound interest in the principles and applications of electronics and communication systems.</p>
+    </div> 
+    <div id="education" class="flex3">
+        <h1 style="color:blue;">EDUCATION</h1>
+        <table style="padding-left: 50px;">
+            <tr>
+                <th>ACADEMIC</th>
+                <th>STUDIED @</th>
+                <th>YEAR & BATCH</th>
+                <th>PERCENTAGE</th>
+            </tr>
+            <tr>
+                <td>10TH</td>
+                <td>KEARTIMAN ACADEMY</td>
+                <td>2020</td>
+                <td>76%</td>
+            </tr>
+            <tr>
+                <td>12TH</td>
+                <td>KEARTIMAN ACADEMY</td>
+                <td>2022</td>
+                <td>93%</td>
+            </tr>
+            <tr>
+                <td>I-YEAR</td>
+                <td>SKCET</td>
+                <td>2023</td>
+                <td>74%</td>
+            </tr>
+            <tr>
+                <td>II-YEAR</td>
+                <td>SKCET</td>
+                <td>2024</td>
+                <td>78%</td>
+            </tr>
+            
+        </table>
+      </div>
+    <div class="flex6" id="skills">
+        <h1 style="color: blue;">SKILLS</h1>
+        
+        <h2>Technical Skills</h2>
+        <ol>
+            <li class="ran">Embedded Systems</li>
+            <li class="ran">Solid Works</li>
+        </ol>
+        <hr>
+        <h2>Software Skills</h2>
+        <ol>
+            <li class="ran" >C++</li>
+            <li class="ran" >Java</li>
+            <li class="ran">Html</li>
+            <li class="ran">Sql</li>
+            <li class="ran">DSA</li>
+        </ol>
+        <hr>
+        <h2>Personals Skills</h2>
+        <ol>
+            <li class="ran">Leadership and Teamwork</li>
+            <li class="ran">Decision Making</li>
+            <li class="ran">Critical thinking and Problem solving</li>
+            <li class="ran">Adaptability</li>
+            <li class="ran">Fast Learner</li>
+            <li class="ran">Ability to Multitask</li>
+            <li class="ran">Fast learner</li>
+        </ol>
+    </div>
+    <div class="flex4" id="Training" >
+        <h2 style="color: blue;">TRAINING</h2>
+        <br>
+        <h3>Internship at MSME</h3>
+        <p class="vt" >Position: Intern</p>
+        <p class="vt">Duration: 10days</p>
+        <p class="vt">Course: Embedded Systems.</p>
+        <hr>
+        <h3>Internship at Salzer</h3>
+        <p class="vt">Position: Intern</p>
+        <p class="vt">Duration: 14days</p>
+        <hr>
+        <p class="vt">Topic:Application of Embedded system .</p>
+        <h3>Internship at Kinpaun Technologies</h3>
+        <p class="vt">Position: Intern</p>
+        <p class="vt">Duration: 2months</p>
+        <p class="vt">Responsibilities: Product devopment.</p></p>
+        <hr>
+    </div>
+    <div id="contact" class="flex5">
+        <a><img src="img\phone-call.png" height="25px" width="30">+91-7397453321</a>
+        <a href="https://www.linkedin.com/in/ranjith-kumar-prakash-581701258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="img\linkedin.png" height="25px" width="30">LINKEDIN</a>
+        <a><img src="img\gmail.png" height="25px" width="30"> ranjithkumar380787@gmail.com</a>
+        <a><img src="img\location.png" height="25px" width="30"> coimbatore-641017</a>
+
+    </div>
+    
+    
+</nav>
+</body>
+</html>
